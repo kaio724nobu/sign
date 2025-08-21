@@ -1,0 +1,174 @@
+body {
+    font-family: 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    color: #e0e0e0;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #0275d8;
+}
+
+main {
+    padding: 100px 40px 40px;
+}
+
+section {
+    margin-bottom: 60px;
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    position: relative;
+    z-index: 1;
+}
+
+#hero {
+    text-align: center;
+    background: none;
+    box-shadow: none;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+#hero h1 {
+    font-size: 5em;
+    margin: 0;
+    letter-spacing: 8px;
+    color: #d9534f;
+}
+
+#hero p {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.plan {
+    text-align: center;
+    padding: 40px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    width: 45%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.plan:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.plan h3 {
+    font-size: 2em;
+    color: #0275d8;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+    color: #d9534f;
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #d9534f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c9302c;
+}
+
+#contact {
+    text-align: center;
+}
+
+.sns {
+    margin-top: 40px;
+}
+
+.sns img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+.sns img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+}
